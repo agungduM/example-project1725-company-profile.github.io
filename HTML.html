@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROFILE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <!-- <style>
+        section{
+            border: 1px solid black;
+            height: 600px;
+            width: 600px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr );
+            grid-template-rows: 1fr 2fr 1fr 1fr;
+            grid-template-areas: 
+            "satu satu"
+            "dua lima"
+            "dua lima"
+            "tiga empat"
+
+            ;
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-evenly; */
+            
+        }
+        div {
+            border: 1px solid blue;
+            /* height: 100px;
+            width: 100px; */
+            background-color: pink;
+            
+        }
+
+        #satu {
+            grid-area: satu;
+        }
+        #dua {
+            grid-area: dua;
+        }
+        #tiga {
+            grid-area: tiga;
+        }
+        #empat {
+            grid-area: empat;
+        }
+        #lima {
+            grid-area: lima;
+        }
+    </style> -->
+
+</head>
+<body>
+    <header id="header">
+        <h1>Coder</h1>
+        <nav>
+            <a href="https://www.w3schools.com/css/css_pseudo_classes.asp#">HOME</a>
+            <a href="">BLOG</a>
+            <a href="">CONTENT</a>
+        </nav>
+    </header>
+    <section id="landing">
+        <div>
+        <H1>Lorem ipsum dolor sit amet consectetur.</H1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis obcaecati quisquam quos.</p>
+        
+            <a href="" class="btn-alt">ABOUT US</a>
+            <a href="" class="btn">CONTACT</a>
+        </div>
+        <div>
+            <img src="landing.png" alt="imglanding">
+        </div>
+    </section>
+    <section class="rise" id="about">
+        <div>
+            <img src="about.png" alt="imgabout">
+        </div>
+        <div>
+            <h1>We Are The Best in Our Field</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam.</p>
+            <div id="about-stats"> 
+                <div class="about-stats-item">
+                    <h1>100+</h1>
+                    <div class="about-stats-item-div"></div>
+                    <p>Experts</p>
+                </div>
+                <div class="about-stats-item">
+                    <h1>300+</h1>
+                    <div class="about-stats-item-div"></div>
+                    <p>Clients</p>
+                </div>
+                <div class="about-stats-item">
+                    <h1>500+</h1>
+                    <div class="about-stats-item-div"></div>
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="rise" id="service">
+        <div id="service-stats-a">
+            <div>
+                <h1>Our Service</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque mollitia incidunt, officiis ea earum esse libero, et excepturi at sapiente labore. Consequuntur nesciunt ea, laborum possimus magni praesentium assumenda modi nulla, libero alias officiis accusamus.</p>
+            </div>
+             <a href="" id="con" class="btn">Contact Us</a>
+        </div>
+            
+        <div id="service-stats-b">
+            <div >
+                <img src="service1.png" alt=" images service 1">
+                <h1>Web Application</h1>
+                <p>lorem35Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quidem explicabo doloribus dolor in voluptatum minus dolores molestiae enim necessitatibus natus facere ratione quaerat impedit quo reiciendis eaque voluptas nostrum, voluptates quod modi illum!</p>
+            </div>
+            <div>
+                <img src="service2.png" alt=" iamges service 2">
+                <h1>UI/UX Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quidem explicabo doloribus dolor in voluptatum minus dolores molestiae enim necessitatibus natus facere ratione quaerat impedit quo reiciendis eaque voluptas nostrum, voluptates quod modi illum!</p>
+            </div>
+            <div>
+                <img src="service3.png" alt=" iamges service 3">
+                <h1>Mobile Application</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quidem explicabo doloribus dolor in voluptatum minus dolores molestiae enim necessitatibus natus facere ratione quaerat impedit quo reiciendis eaque voluptas nostrum, voluptates quod modi illum!</p>
+            </div>
+        </div>
+    </section>
+    <section id="cont">
+            <h1 id="contact-header">Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, consequatur?</p>
+            <div id="contact">
+                    <form action="">
+                        <h1>Tell Us Your Problem</h1>
+                            <div class="contact-column">
+                                <div class="contact-input" id="input-name">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="contact-input" id="input-email">
+                                    <label for="email">Email</label>
+                                    <input type="text" id="emali" placeholder="Your Email">
+                                </div>
+                                <div class="contact-input" id="input-subject"> 
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" placeholder="Subject">
+                                </div>
+                                <div class="contact-input" id="input-phone">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="text" id="phone" placeholder="Phone Number">
+                                </div>
+                                <div class="contact-input" id="input-message"> 
+                                    <label for="message">Message</label>
+                                    <input type="text" id="message" placeholder="Write Your Message">
+                                </div>             
+                            </div>     
+                        <button class="btn">Send a Message</button>
+                    </form>
+                    <div>
+                        <h1>Our Location</h1>
+                        <iframe  id="location" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.837791876158!2d106.437023!3d-6.202962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4203d92293514f%3A0xd968e5eef0701706!2sPT.%20Balaraja%20Distribusindo%20Raya!5e0!3m2!1sid!2sid!4v1675746531846!5m2!1sid!2sid" width="480" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+    </section>
+    <footer id="footer">
+        <div>
+            <h1>Coder</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, molestias!</p>
+        </div>
+        <div id="sosmed">
+            <img src="Facebook.svg" alt="">
+            <img src="Instagram.svg" alt="">
+            <img src="Twitter.svg" alt="">
+        </div>
+    </footer>
+    <!-- <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. <div>display</div> Eum culpa earum quod 
+            esse delectus vitae sint expedita minus aliquid explicabo!
+        </p>
+    </div> -->
+
+    <!-- <section>
+        <div id="satu">1</div>
+        <div id="dua">2</div>
+        <div id="tiga">3</div>
+        <div id="empat">4</div>
+        <div id="lima">5</div>
+    </section> -->
+</body>
+</html>
